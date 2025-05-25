@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="Styles.css"/>
+    <title>saudi Projects in Ai</title>
+</head>
+<body>
+    <header>
+        <img src="imgs/svg/logo.svg" alt="MusaabK99 logo" />
+        <nav class="navigation">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="why-ai.html">Why Ai?</a></li>
+                <li><a href="saudi-projects.html">Saudi Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr  />
+    <section class="projects">
+        <h1 class="Projects-title">Saudi Projects in Article> Intelligence</h1>
+
+        <div class="card">
+  <h2>Smart Hajj</h2>
+  <p>AI systems are used to manage crowd flow and provide real-time guidance for pilgrims.</p>
+  <a href="#" class="btn" onclick="toggleText(this)">Read More</a>
+  
+  <div class="more-text" style="display: none; margin-top: 10px;">
+    <p>
+      The Smart Hajj initiative in Saudi Arabia uses AI to monitor crowds, predict congestion, and ensure a safer and smoother pilgrimage experience. Smart robots and data systems help guide pilgrims and assist them in multiple languages.
+    </p>
+  </div>
+</div>
+        <div class="card">
+            <h2>NEOM City</h2>
+            <p>A futuristic city where AI manages transportation, energy, and urban planning efficiently.</p>
+            <a href="#" class="btn" onclick="toggleText(this)" >Read More</a>
+
+             <div class="more-text" style="display: none; margin-top: 10px;">
+            <p>Detailed Summary:
+One of NEOM’s main projects is "The Line," a groundbreaking linear city that aims to eliminate cars and emissions by relying on AI-driven smart infrastructure for transportation, healthcare, and utilities. It reflects Saudi Arabia’s goal to develop sustainable, high-tech urban environments. Alongside this, the "Human" app (or similar digital platforms) supports this vision by using AI and data to provide smart services like health, social benefits, and personalized experiences, helping citizens stay connected and efficient.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+             <h2>AI in Education</h2>
+            <p>AI helps personalize learning for students and supports teachers in classroom management.</p>
+            <a href="#" class="btn" onclick="toggleText(this)">Read More</a>
+  
+            <div class="more-text" style="display: none; margin-top: 10px;">
+            <p>In Saudi Arabia, AI tools are helping teachers analyze student performance, personalize learning paths, and automate administrative tasks. This allows educators to focus more on engaging with students and improving classroom outcomes.
+            </p>
+        </div>
+     </div>
+    </section>
+    <script>
+  function toggleText(btn) {
+    const moreText = btn.nextElementSibling;
+    if (moreText.style.display === "none") {
+      moreText.style.display = "block";
+      btn.textContent = "Read Less";
+    } else {
+      moreText.style.display = "none";
+      btn.textContent = "Read More";
+    }
+  }
+</script>
+</body>
+</html>
